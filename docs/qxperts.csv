@@ -4,12 +4,24 @@ Cypress is in the “Market Mature” ring because it has already proven itself 
 
 </br># weekly downloads 1 year ago: 2,284,941
 </br># weekly downloads: 3,968,935</p>"
-Playwright,Tools,Exploring,TRUE,"<p>Playwright is a test automation tool for modern web applications that enables you to write reliable cross-device and cross-browser tests.
+Selenium,Tools,Mature,TRUE,"<p>Selenium WebDriver is known for being the most popular free and open-source test automation framework. With very little programming effort, you can perform many actions on a frontend web application. It has well-established documentation and firm community support from users across the globe.
+</br>
+It implements the WebDriver technology that drives the tests through an installed Selenium server which, in turn, communicates with a specific browser driver. It supports a number of browsers (Google Chrome, Internet Explorer, Safari, Opera, Firefox) and operating systems (Windows, Mac, Linux/Unix). You also have the freedom to write test scripts in a variety of programming languages, such as:  Java, .Net, Python, Ruby, and Javascript. Selenium 4 (released in 2022) brought new advanced capabilities around network control and mocking APIs.
+</br>
+Some of the unique features of Selenium include: multi-tab support, relative locators, W3C compliant, and Selenium Grid.</p>"
+Gitlab,Tools,Mature,TRUE,"<p>GitLab is a full-swing DevOps CI/CD platform. Although it is mostly known by, and used for, Continuous Integration and Continuous Deployment, it also has the capabilities to plan your sprints, track bugs, etc. The platform can be used 'as a service' from Gitlab.com, via a partner or hosted on-premise.
+</br>
+GitLab Inc (the company) is famous for being a world leader in remote work. Especially during COVID, they garnered a lot of attention with their Remote Playbook, which is a manual for Gitlab employees.</p>"
+Playwright,Tools,Growing,FALSE,"<p>Playwright is a test automation tool for modern web applications that enables you to write reliable cross-device and cross-browser tests.
 Playwright is in the “Growing Market” ring as it is a relatively young product (v1.0.0 as of May 2020), although with a steadily expanding community. Roughly once per month a new version of Playwright is released with new features. The number of companies using Playwright is growing steadily. Their ranks include Microsoft, who uses it for products such as Bing and Outlook
 
 </br># weekly downloads 1 year ago: 233,244
 </br># weekly downloads: 644,667</p>"
-Testcafe,Tools,Growing,FALSE,"<p>TestCafe is an open source test automation tool for web applications which focusses on end-to-end testing. It's income model is focused on TestCafe Studio, which helps developers and quality engineers record tests, run tests and analyse test results.
+API testing,Tools,Growing,TRUE,"<p>API testing is the practice of testing APIs by directly accessing the endpoints. This can be done to verify functionality, performance, availability, security and more.
+There are a lot of tools that are specialized in API testing and also tools that add it as part of their broader offering. For example, in the browser space: Cypress and Playwright are browser testing tools at heart, but since a lot of APIs are approached by applications running in the browser, these tools have included API testing as well.
+</br>
+I believe API testing is in the Growing market, because it is often introduced after unit, integration and end-to-end testing. Also, other more recent API languages, such as GraphQL (2015), allow for growth in the API testing area.</p>"
+Testcafe,Tools,Exploring,FALSE,"<p>TestCafe is an open source test automation tool for web applications which focusses on end-to-end testing. It's income model is focused on TestCafe Studio, which helps developers and quality engineers record tests, run tests and analyse test results.
 TestCafe distinguishes itself by natively supporting most browsers, which for some users is an important feature.
 TestCafe is in the ""Exploring Market"" as we don't come across it very often or at conferences and meetups, The NPM download statistics don't yet show a large or growing user base.
 
@@ -27,10 +39,42 @@ Continous Delivery,Operational Techniques,Mature,FALSE,"<p>As an industry, we ar
 Disaster recovery testing,Operational Techniques,Growing,FALSE,"<p>Disaster recovery testing is about testing the (often theoretical) plans to recover from a critical event that cripples the operational ability of an organization.
 
 </br>Disaster recovery testing is positioned in the ""Growing Market"" ring as, with the rise of Cloud and DevOps, more possibilities are becoming available to do Disaster Recovery Testing on a continuous basis and to make it part of the normal Quality Assurance activities during the Software Development Lifecycle.</p>"
+Micro front-ends,Operational Techniques,Growing,TRUE,"<p>Micro frontends is the frontend version of micro services (the latter which typically live in the backend). Micro frontends can go hand-in-hand with micro services, but this is not a hard requirement. One of the benefits is that there is decoupling at the frontend, meaning different teams can deploy their micro frontends independently of each other, while the user still sees one application. This allows for a coherent experience. There are different approaches to implementing micro frontends as described in <a href=""https://martinfowler.com/articles/micro-frontends.html"">THIS ARTICLE</a>.
+</br>
+Appearing on the Thoughtworks Technology Radar in 2016, and now in the adopt phase, I believe most companies have not moved to recent developments to implement micro frontends. One of those developments is module federation. This concept has been in development since 2019 and was born at the company that created WebPack. It provides runtime integration and works in most cases, but is still under development.
+If you look at the broader definition of micro frontends, I believe it should be in the growing market.</p>"
 Proactive notifications,Operational Techniques,Exploring,FALSE,"<p>Proactive notifications means informing interested parties of potential issues using trained AI models to identify certain anomalous behaviour. Doing this ensures they do not accure and can be solved proactively and prevent a possible negative outcome (like a noticeable outage / issue with business impact) . It is used mainly in monitoring products which have all the necessary infrastructure / application contexts to make predictions.
 
 </br>Proactive notifications is positioned in the ""Exploring market"" ring as it's actively being worked on and many new technologies frequently become available.</p>"
 Gitlab,Delivery,Mature,FALSE,"<p>Gitlab is a fullswing DevOps CICD platform. Although it is mostly known by and used for Continuous Integration and Continuous Deployment, it also has the capabilities to plan your sprints, track bugs, etcetera.
 The platform can be used 'as a service' from Gitlab.com, via a partner or hosted on premise.
 </br>Gitlab Inc (the company) is famous for being a world leader in remote work. Especially during covid they gathered a lot of attention with their Remote Playbook, which is a manual for Gitlab employees.</p>"
-,Development Techniques,,,
+Retrospectives,Development Techniques,Mature,TRUE,"<p>A retrospective originates from the LEAN approach and is an essential part of the continuous improvement process. During a retrospective, the team reflects on what happened in the relevant period and identifies actions for further improvement.
+</br>
+</br>Typical questions asked during a retrospective are:
+</br>- What worked well?
+</br>- What did not work well?
+</br>- What actions can we take to improve our process going forward?
+</br>
+The Ninth Agile principle outlined in the Agile manifesto states, ""At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly."" Because Agile stresses the importance of continuous improvement, having regular retrospectives is one of the most important parts of development practices.</p>"
+Lean Product Development,Development Techniques,Mature,TRUE,"<p>There is no greater waste than building something extremely efficient, well architectured (is that a word?), with high quality that nobody wants. The Agile manifesto states “Our highest priority is to satisfy the customer through early and continuous delivery of valuable software”. Yet we see products not meeting customer desires all the time.
+</br>
+Too often, organizations focus on product teams and do not realize that product delivery is a combination of development, the processes around it, and the delivery parts of the business.
+</br>
+This fragmentation of the value chain causes delays, cost overruns, quality problems, and a host of other issues. Worse, it can do tremendous damage both to the culture and overall performance of the organization. Lean Product Development counters this by clearly defining value streams throughout the entire organization and brings them together in the innovation process.
+</br>
+Lean Product Development enables you to leverage your entire enterprise to build a sustainable system for consistently creating profitable value streams.</p>"
+Shift-Left Security,Development Techniques,Exploring,TRUE,"<p>Every part of a business needs to be secured. As innovation skyrockets, we depend more on technology, process more data, and encounter more threats. Security is more important than ever.
+</br>
+While it seems obvious to protect personal information, security is much more than just that. New technology introduces new risks and organisations need to be prepared. What about the unauthorised use of your cloud infrastructure to mine bitcoin? Or hackers exploiting your app to read users' smartphones? Or your competitor shutting down your system?
+</br>
+Going by what engineers or product developers think, security is an inhibitor because it slows down and disrupts processes. It’s therefore important to make it fun, part of the culture, and facilitate it. Policies are often based on what not to do, and not on how to do it properly. Shift-left security focuses on providing practical guidelines on which tools you can use safely and where you can find them.
+</br>
+Security is more than just protecting data. It's about making sure you can keep doing what's at the core of your business at all times. If security is part of your business processes, products will be secure by design. This is not only cheaper than having to arrange security after the fact, it also ensures a shorter time-to-market.</p>"
+Low-Code Platforms,Development Techniques,Growing,TRUE,"<p>Low code is a visual approach to software development that removes the often tedious and complex full-stack development cycle by bringing in an innovative process of unifying independent components into one dynamic force.
+</br>
+Rather than a technical coding environment, low-code operates in a model-driven, drag-and-drop interface. All development skill levels — professional developers, novice developers, subject-matter experts, business stakeholders, and decision makers — can use low-code to build value-driven enterprise business applications.
+</br>
+The goal is to enable developers to build components that accelerate the product delivery by an order of magnitude and enable high ROI, delivering applications that are scalable, secure, and future-ready.
+</br>
+Experts say it’s a game-changing technology that will capture 65% of the application development domain by 2024.</p>"
